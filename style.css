@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'sarala', sans-serif;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#cabecalho-texto {
+  background-image: url(https://cavalus.com.br/wp-content/uploads/2022/03/horse-g8d2a93770_1920.jpg);
+  width: 100vw;
+  height: 20em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.imagem-cabecalho {
+  width: 5em;
+  margin-right: auto;
+  margin-left: 12.5em;
+  margin-bottom: 7.5em;
+}
+
+.cabecalho-texto-body,
+.cabecalho-texto-body2,
+.cabecalho-texto-body3 {
+  font-size: 20px;
+  font-family: 'Sarala', sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 12em;
+}
+
+.cabecalho-texto-body3 {
+  margin-right: 20em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 5px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  margin-left: 25.5em;
+  margin-right: 25.5em;
+  gap: 30px;
+}
+
+.cavalo {
+  border-end-end-radius: 4em;
+  border-start-start-radius: 4em;
+  width: 400px;
+  height: 300px;
+}
+
+.sobre {
+  display: flex;
+  justify-content: center;
+  margin-right: 28em;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.contato {
+  text-align: center;
+  margin-top: 8.5em;
+}
